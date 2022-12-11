@@ -14,22 +14,22 @@ Below shows some examples:
 
 ## Title Pages for Schools/Organizations
 - The Politecnico di Torino 
-![Politecnico di Torino]
+![Politecnico di Torino](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_main.jpg)
 
 ## Page Elements
 
 - Table of Contents
 
   At the beginning of each section, the table of contents will be shown with the current chapter highlighted.
-![toc]
+![toc](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_index.jpg)
 - Sub-section page
-![ssec](
+![ssec](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_two_sides.jpg)
 - Math equation
-![math]
+![math](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_math.jpg)
 - Code block
-![code]
+![code](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_code.jpg)
 - End page
-![end]
+![end](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_last.jpg)
 
 ## Make Your Own Theme?
 
@@ -43,7 +43,7 @@ Alternatively, you can open the templates' Overleaf webpages and click `Open as 
 
 ### Step 2: Replace icon pictures
 
-The `images/` folder stores the icon pictures. The `SINTEF_Logo_Sentrert_RGB.jpg` is the icon picture shown on the title page & normal pages. And the `SINTEF_Logo_Sentrert_Negativ_RGB.jpg` is the icon picture shown on the contents pages & end page, both on the left-top corner.
+The `assets/` folder stores the icon pictures.  The `logo_RGB.png` is the icon picture shown on the contents pages & end page, both on the left-top corner.
 
 You can replace them with your own icons, noted that the pictures' file names should be the same as the original ones, otherwise the theme doesn't know how to find your icons.
 
@@ -57,12 +57,14 @@ The `images/` folder also stores the background picture, which is `background.pn
 
 To optimize the visual appearance, it's recommended to change the main colour, which will be used as the colour of titles and backgrounds. The 7-th line of `sintefcolor.sty` file defines the main colour:
 ```
-\definecolor{sintefblue}{RGB}{148,0,64}
+\definecolor{maincolor}{RGB/cmyk}{0,53,118/100,55,0,54}
 ```
-Assuming that the RGB value of the new main colour is `(254, 191, 75)`, just rewrite the last 3 values in the code as:
+Assuming that the RGB value of the new main colour is `(0,53,118)` and the cmyk is ``(0,53,118/100,55,0,54)`, just rewrite the last 3 values in the code as:
 ```
-\definecolor{sintefblue}{RGB}{254, 191, 75}
+\definecolor{maincolor}{RGB/cmyk}{0,53,118/100,55,0,54}
 ```
+Moreover, if you want to change the size and the logo of the assets, you can use the Figma file `Polito_figma.png`!
+
 Now you have your brand new template 👏🎉
 
 ## Issues & Suggestions
