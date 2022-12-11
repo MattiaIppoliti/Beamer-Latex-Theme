@@ -13,8 +13,11 @@ All templates have been submitted to [Gallery - Overleaf](https://cs.overleaf.co
 Below shows some examples:
 
 ## Title Pages for Schools/Organizations
-- The Politecnico di Torino 
+- Politecnico di Torino 
 ![Politecnico di Torino](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_main.jpg)
+
+- Master School - Politecnico di Torino
+![Master Politecnico di Torino](https://github.com/MattiaIppoliti/Beamer-Latex-Theme/blob/main/img/screen_master.jpg)
 
 ## Page Elements
 
