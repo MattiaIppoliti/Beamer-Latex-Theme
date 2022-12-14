@@ -6,7 +6,7 @@ Here are some beamer templates which are secondary creations of [SINTEF Presenta
 
 All templates have been submitted to [Gallery - Overleaf](https://cs.overleaf.com/gallery), please check them here👇
 
-- [Politecnico di Torino - Beamer Latex Presentation]
+- [Politecnico di Torino - Beamer Latex Presentation](https://www.overleaf.com/latex/templates/politecnico-di-torino-presentation/cnypkdbdyqky)
 
 > Noted that if you'd like to include Chinese text, please use XeLaTeX for typesetting.
 
